@@ -15,7 +15,7 @@ public class Ex1_UseCqlSessionTest {
     @Test
     public void listChevronsTest() {
         System.out.println("Here are the chevrons:");
-        cqlSession.execute("select * from stargate.chevrons")
+        cqlSession.execute("select * from jd9app.chevrons")
                   .all().stream().forEach(row -> {
            System.out.println("+"
                    + " code=" + row.getInt("code") 

@@ -30,4 +30,4 @@ astra:
   # Select an instance
   cloud-region: <REGION>
   database-id: <DB_ID>
-  keyspace: stargate
+  keyspace: jd9app

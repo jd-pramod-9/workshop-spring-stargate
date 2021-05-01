@@ -26,7 +26,7 @@ public class Ex6_SdkDocApi {
     @Test
     public void listDocument() {
         astraClient.apiDocument()
-                   .namespace("stargate")
+                   .namespace("jd9app")
                    .collection("sampledoc")
                    .search(SearchDocumentQuery.builder().build(), VideoBean.class)
                    .getResults()
